@@ -8,7 +8,7 @@ $date_out = isset($_POST['date_out']) ? $_POST['date_out'] : date('Y-m-d', strto
 	<div class="container h-100">
 		<div class="row h-100 align-items-center justify-content-center text-center">
 			<div class="col-lg-10 align-self-end mb-4" style="background: #0000002e;">
-				<h1 class="text-uppercase text-white font-weight-bold">Rooms</h1>
+				<h1 class="text-uppercase text-white font-weight-bold">Kamar</h1>
 				<hr class="divider my-4" />
 			</div>
 
@@ -62,7 +62,7 @@ $date_out = isset($_POST['date_out']) ? $_POST['date_out'] : date('Y-m-d', strto
 								<img src="assets/img/<?php echo $cat_arr[$row['category_id']]['cover_img'] ?>" alt="">
 							</div>
 							<div class="col-md-5" height="100%">
-								<h3><b><?php echo 'Rp. ' . number_format($cat_arr[$row['category_id']]['price'], 2) ?></b><span> / per hari</span></h3>
+								<h3><b><?php echo 'Rp. ' . number_format($cat_arr[$row['category_id']]['price'], 2) ?></b><span> / Hari</span></h3>
 
 								<h4><b>
 										<?php echo $cat_arr[$row['category_id']]['name'] ?>

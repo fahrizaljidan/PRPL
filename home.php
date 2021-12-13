@@ -46,7 +46,7 @@
  					<a class="portfolio-box" href="#">
  						<img class="img-fluid" src="assets/img/<?php echo $row['cover_img'] ?>" alt="" />
  						<div class="portfolio-box-caption">
- 							<div class="project-category text-white-30"><?php echo "Rp. " . number_format($row['price'], 2) ?> per day</div>
+ 							<div class="project-category text-white-30"><?php echo "Rp. " . number_format($row['price'], 2) ?> / hari</div>
  							<div class="project-name"><?php echo $row['name'] ?></div>
  						</div>
  					</a>

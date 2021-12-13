@@ -78,7 +78,6 @@
 
 <body>
 
-
 	<main id="main" class=" alert-info">
 		<div id="login-left">
 			<!-- == You can logo or image herre == -->
@@ -98,7 +97,11 @@
 							<label for="password" class="control-label">Password</label>
 							<input type="password" id="password" name="password" class="form-control">
 						</div>
-						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Login</button>
+						<center>
+							<button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Login</button>
+							<div class="col-lg-12">
+								<a button class="btn-sm btn-block btn-wave col-md-4 btn-primary" href="http://d6ea-36-85-39-124.ngrok.io/PT.Indah_Hotels/"> Beranda</a>
+							</div>
 						</center>
 					</form>
 				</div>
@@ -131,13 +134,16 @@
 				if (resp == 1) {
 					location.href = 'index.php?page=home';
 				} else if (resp == 2) {
-					location.href = 'voting.php';
+					location.href = 'index.php?page=home';
 				} else {
 					$('#login-form').prepend('<div class="alert alert-danger">Username or password is incorrect.</div>')
 					$('#login-form button[type="button"]').removeAttr('disabled').html('Login');
 				}
 			}
 		})
+	})
+	$('#new_user').click(function(reg) {
+		uni_modal('New User', 'manage_user.php')
 	})
 </script>
 

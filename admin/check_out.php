@@ -19,11 +19,11 @@ while ($row = $room->fetch_assoc()) {
 						<table class="table table-bordered">
 							<thead>
 								<th>#</th>
-								<th>Category</th>
-								<th>Room</th>
-								<th>Reference</th>
+								<th>Kategori</th>
+								<th>Kamar</th>
+								<th>Referensi</th>
 								<th>Status</th>
-								<th>Action</th>
+								<th>Aksi</th>
 							</thead>
 							<tbody>
 								<?php

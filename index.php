@@ -32,10 +32,10 @@ foreach ($query as $key => $value) {
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=list">Rooms</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=about">About</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://localhost/PT.Indah_Hotels/admin/login.php">Login</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=list">Kamar</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=about">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://d6ea-36-85-39-124.ngrok.io/PT.Indah_Hotels/admin/login.php?">Login</a></li>
         </ul>
       </div>
     </div>
@@ -51,14 +51,14 @@ foreach ($query as $key => $value) {
     <div class="modal-dialog modal-md" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Confirmation</h5>
+          <h5 class="modal-title">Konfirmasi</h5>
         </div>
         <div class="modal-body">
           <div id="delete_content"></div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" id='confirm' onclick="">Continue</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id='confirm' onclick="">Lanjut</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
         </div>
       </div>
     </div>
@@ -72,15 +72,15 @@ foreach ($query as $key => $value) {
         <div class="modal-body">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" id='submit' onclick="$('#uni_modal form').submit()">Save</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary" id='submit' onclick="$('#uni_modal form').submit()">Simpan</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
         </div>
       </div>
     </div>
   </div>
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Hotel Mangement system</a></div>
+      <div class="small text-center text-muted">PT. Indah Hotel</a></div>
     </div>
   </footer>
 

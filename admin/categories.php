@@ -9,20 +9,20 @@
 				<form action="" id="manage-category">
 					<div class="card">
 						<div class="card-header">
-							Room Category Form
+							Form Kategori Kamar
 						</div>
 						<div class="card-body">
 							<input type="hidden" name="id">
 							<div class="form-group">
-								<label class="control-label">Category</label>
+								<label class="control-label">Kategori</label>
 								<input type="text" class="form-control" name="name">
 							</div>
 							<div class="form-group">
-								<label class="control-label">Price</label>
+								<label class="control-label">Harga</label>
 								<input type="number" class="form-control text-right" name="price" step="any">
 							</div>
 							<div class="form-group">
-								<label for="" class="control-label">Image</label>
+								<label for="" class="control-label">Gambar Kamar</label>
 								<input type="file" class="form-control" name="img" onchange="displayImg(this,$(this))">
 							</div>
 							<div class="form-group">
@@ -51,9 +51,9 @@
 							<thead>
 								<tr>
 									<th class="text-center">#</th>
-									<th class="text-center">Img</th>
-									<th class="text-center">Room</th>
-									<th class="text-center">Action</th>
+									<th class="text-center">Gambar</th>
+									<th class="text-center">Kamar</th>
+									<th class="text-center">Aksi</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -70,8 +70,8 @@
 											<img src="<?php echo isset($row['cover_img']) ? '../assets/img/' . $row['cover_img'] : '' ?>" alt="" id="cimg">
 										</td>
 										<td class="">
-											<p>Name : <b><?php echo $row['name'] ?></b></p>
-											<p>Price : <b><?php echo "Rp." . number_format($row['price'], 2) ?></b></p>
+											<p>Nama : <b><?php echo $row['name'] ?></b></p>
+											<p>Harga : <b><?php echo "Rp." . number_format($row['price'], 2) ?></b></p>
 										</td>
 										<td class="text-center">
 											<button class="btn btn-sm btn-primary edit_cat" type="button" data-id="<?php echo $row['id'] ?>" data-name="<?php echo $row['name'] ?>" data-price="<?php echo $row['price'] ?>" data-cover_img="<?php echo $row['cover_img'] ?>">Edit</button>
