@@ -35,7 +35,7 @@ foreach ($query as $key => $value) {
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Beranda</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=list">Kamar</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=about">Tentang</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://d6ea-36-85-39-124.ngrok.io/PT.Indah_Hotels/admin/login.php?">Login</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://localhost/PT.Indah_Hotels/admin/login.php?">Login</a></li>
         </ul>
       </div>
     </div>

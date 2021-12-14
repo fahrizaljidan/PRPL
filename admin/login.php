@@ -100,7 +100,7 @@
 						<center>
 							<button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Login</button>
 							<div class="col-lg-12">
-								<a button class="btn-sm btn-block btn-wave col-md-4 btn-primary" href="http://d6ea-36-85-39-124.ngrok.io/PT.Indah_Hotels/"> Beranda</a>
+								<a button class="btn-sm btn-block btn-wave col-md-4 btn-primary" href="http://localhost/PT.Indah_Hotels/"> Beranda</a>
 							</div>
 						</center>
 					</form>
